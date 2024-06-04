@@ -1,5 +1,7 @@
 /*
 
+Balena - Hotel HTML site template
+https://themeforest.net/user/liviu_cerchez
 
 Table of contents:
 ~~~~~~~~~~~~~~~~~
@@ -38,8 +40,8 @@ Table of contents:
 	--body-alt-background-color: #f2f2f2;
 	--body-alt-text-color: #494949;
 	--border-color: #e2e2e2;
-	--faded-color: #ed1c24 ;
-	--accent-color: #b35f18;
+	--faded-color: #9a9a9a;
+	--accent-color: #ed1c24;
 	--accent-color-faded: #ffecdd;
 	--accent-color-alt: #fff;
 	--complementary-color: #ed1c24;
@@ -54,7 +56,7 @@ Table of contents:
 	--input-text-color: #242424;
 	--input-text-color-focus: #121212;
 	--input-border-color: #c2c2c2;
-	--input-border-color-focus: #ed1c24;
+	--input-border-color-focus: #179CB3;
 	--input-required-color: #ff3c1f;
 	--input-outline-color: rgba(23, 156, 179, .3);
 	--input-outline-required-color: rgba(206, 21, 2, .2);
@@ -694,7 +696,7 @@ a:focus {
 	left: 0;
 	top: -.1em;
 	font-size: 2.5em;
-	color: #E31E24;
+	color: var(--accent-color);
 }
 
 .menu {
@@ -878,7 +880,7 @@ a:focus {
 }
 
 .box-color.accent-color {
-	background-color: #E31E24;
+	background-color: var(--accent-color);
 }
 
 .box-color.complementary-color {
@@ -1390,8 +1392,8 @@ button.button-primary,
 input[type="button"],
 input[type="submit"],
 button[type="submit"] {
-	background-color: #E31E24;
-	border-color: #E31E24;
+	background-color: var(--accent-color);
+	border-color: var(--accent-color);
 	color: var(--accent-color-alt);
 }
 
@@ -1767,7 +1769,7 @@ input[type=search]::-webkit-search-decoration {
 .no-custom-logo .site-identity a,
 .custom-logo-background-padding .site-identity a {
 	padding: 18px;
-	background-color: #E31E24;
+	background-color: var(--accent-color);
 	color: var(--accent-color-alt);
 }
 
@@ -1791,8 +1793,6 @@ input[type=search]::-webkit-search-decoration {
 @media (min-width: 414px) {
 	.site-identity {
 		max-width: 280px;
-		padding: 15px;
-
 	}
 
 	.no-custom-logo .site-identity a,
@@ -1820,9 +1820,10 @@ input[type=search]::-webkit-search-decoration {
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		background-color: #E31E24;
+		background-color: var(--accent-color);
 		color: var(--accent-color-alt);
-	
+	}
+
 	.no-custom-logo .site-identity a,
 	.custom-logo-background-padding .site-identity a {
 		padding: 50px;
@@ -1832,7 +1833,7 @@ input[type=search]::-webkit-search-decoration {
 
 	.site-identity img {
 		max-height: 250px;
-		padding: 14px;
+		padding: 15px;
 	}
 
 	.navbar-is-sticky .site-identity img {
@@ -1876,7 +1877,7 @@ input[type=search]::-webkit-search-decoration {
 .main-navigation .current-menu-parent > a,
 .main-navigation .current-menu-item > a,
 .main-navigation a .mdi {
-	color: var(--faded-color);
+	color: #ed1c24;
 }
 
 .site-navigation .menu-item-has-children {
@@ -2539,7 +2540,7 @@ input[type=search]::-webkit-search-decoration {
 	height: 100%;
 	pointer-events: none;
 	background-color: var(--overlay-background-color);
-	opacity:0.3;
+	opacity: var(--overlay-opacity);
 }
 
 .featured-text {
@@ -4354,7 +4355,7 @@ body:not(.has-sidebar) .pagination {
 	margin-top: var(--spacing-level1);
 	font-size: 24px;
 	text-align: center;
-	background-color: #E31E24;
+	background-color: var(--accent-color);
 	color: var(--accent-color-alt);
 }
 
