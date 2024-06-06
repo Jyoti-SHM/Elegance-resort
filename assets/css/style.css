@@ -44,7 +44,7 @@ Table of contents:
 	--accent-color: #ed1c24;
 	--accent-color-faded: #ffecdd;
 	--accent-color-alt: #fff;
-	--complementary-color: #ed1c24;
+	--complementary-color:#2f9b68;
 	--complementary-color-alt: #fff;
 	--button-border-color: #323232;
 	--button-border-color-hover: #424242;
@@ -1399,8 +1399,8 @@ button[type="submit"] {
 
 .button.button-secondary,
 button.button-secondary {
-	background-color: var(--complementary-color);
-	border-color: var(--complementary-color);
+	background-color: #ed1c24;
+	border-color: #ed1c24;
 	color: var(--complementary-color-alt);
 }
 
@@ -1783,8 +1783,7 @@ input[type=search]::-webkit-search-decoration {
 
 .site-identity img {
 	width: auto;
-	/* max-height: 100px; */
-	max-height: 66px;
+	max-height: 100px;
 }
 
 .custom-logo-background-padding .site-identity img {
@@ -1834,7 +1833,7 @@ input[type=search]::-webkit-search-decoration {
 
 	.site-identity img {
 		max-height: 250px;
-		padding: 15px;
+		padding: 10px;
 	}
 
 	.navbar-is-sticky .site-identity img {
@@ -1901,11 +1900,11 @@ input[type=search]::-webkit-search-decoration {
 
 .site-contact-details a {
 	font-weight: 400;
-	color: #009a4e;
+	color: #2f9b68;
 }
 
 .site-contact-details a .mdi {
-	color: var(--complementary-color);
+	color: #ed1c24;
 }
 
 .site-contact-details a .mdi-email-outline {
