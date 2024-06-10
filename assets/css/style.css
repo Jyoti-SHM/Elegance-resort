@@ -765,6 +765,7 @@ a:focus {
 @media (max-width: 575px) {
 	.gallery .gallery-item {
 		width: calc((100% - 16px)/2);
+		padding: 7px !important;
 	}
 
 	.gallery .gallery-item:nth-of-type(2n) {
@@ -1236,7 +1237,7 @@ h1,
 
 h1.display,
 .h1-display {
-	font-size: 4.768em;
+	font-size: 4.168em;
 	font-weight: 400;
 }
 
@@ -2869,6 +2870,7 @@ body:not(.has-sidebar) .block-room-listing.alignfull {
 
 .gallery.alignfull .gallery-item {
 	margin: 0;
+	padding: 25px;
 }
 
 .block-grid,
@@ -3175,7 +3177,7 @@ body .block-grid.alignfull {
 		margin-bottom: 25px;
 	}
 
-	.block-media-text.stairs-effect .text-part:before,
+	/* .block-media-text.stairs-effect .text-part:before,
 	.block-media-text.stairs-effect .text-part:after {
 		content: '';
 		position: absolute;
@@ -3184,33 +3186,36 @@ body .block-grid.alignfull {
 		height: 25px;
 		z-index: 2;
 		background-color: var(--body-background-color);
-	}
+	} */
 
 	.block-media-text.stairs-effect.alt-background .text-part:before,
 	.block-media-text.stairs-effect.alt-background .text-part:after {
 		background-color: var(--accent-color-faded);
 	}
 
-	.block-media-text.stairs-effect.first-block-media-text .text-part:before,
+	/* .block-media-text.stairs-effect.first-block-media-text .text-part:before,
 	.block-media-text.stairs-effect.last-block-media-text .text-part:after {
 		height: 50px;
-	}
+	} */
 
-	.block-media-text.stairs-effect .text-part:before {
+	/* .block-media-text.stairs-effect .text-part:before {
 		top: -25px;
-	}
+	} */
 
 	.block-media-text.stairs-effect.first-block-media-text .text-part:before {
 		top: -50px;
 	}
 
-	.block-media-text.stairs-effect .text-part:after {
+	/* .block-media-text.stairs-effect .text-part:after {
 		bottom: -25px;
-	}
+	} */
+	/* .block-media-text.stairs-effect .text-part:after {
+		bottom: -25px;
+	} */
 
-	.block-media-text.stairs-effect.last-block-media-text .text-part:after {
+	/* .block-media-text.stairs-effect.last-block-media-text .text-part:after {
 		bottom: -50px;
-	}
+	} */
 
 	.block-media-text .media-part {
 		position: relative;
@@ -4638,3 +4643,10 @@ body:not(.has-sidebar) .pagination {
 .social-navigation a[href*="wordpress.com"]:before {
 	content: "\F5B4";
 }
+
+.packages-list em{
+	font-size: 1.3em !important;
+	top: 9px;	
+}
+.packages-list li {
+    padding: 0.7em 0 0 2em !important;}
