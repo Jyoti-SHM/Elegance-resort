@@ -1790,7 +1790,7 @@ input[type=search]::-webkit-search-decoration {
 
 .site-identity img {
 	width: auto;
-	max-height: 100px;
+	max-height: 72px;
 }
 
 .custom-logo-background-padding .site-identity img {
@@ -1845,6 +1845,7 @@ input[type=search]::-webkit-search-decoration {
 
 	.navbar-is-sticky .site-identity img {
 		max-height: 125px;
+		background-color: #ffe4c4;
 	}
 
 	.custom-logo-background-padding .site-identity img {
