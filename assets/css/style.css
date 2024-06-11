@@ -1407,6 +1407,7 @@ button[type="submit"] {
 
 .button.button-secondary,
 button.button-secondary {
+	transition: all .5s;
 	background-color: #ed1c24;
 	border-color: #ed1c24;
 	color: var(--complementary-color-alt);
@@ -2067,7 +2068,7 @@ input[type=search]::-webkit-search-decoration {
 	}
 
 	.main-navigation > ul {
-		padding: 60px 20px 20px;
+		padding: 20px 20px 20px;
 	}
 
 	.no-custom-logo .main-navigation {
@@ -2079,7 +2080,7 @@ input[type=search]::-webkit-search-decoration {
 	}
 
 	.main-navigation a {
-		font-size: 1.563rem;
+		font-size: 16px;
 		font-weight: 700;
 		padding: 5px 20px;
 	}
@@ -4650,3 +4651,11 @@ body:not(.has-sidebar) .pagination {
 }
 .packages-list li {
     padding: 0.7em 0 0 2em !important;}
+
+
+
+.button.button-secondary:hover{
+	background-color: transparent !important;
+
+
+}
