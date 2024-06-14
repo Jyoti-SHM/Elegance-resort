@@ -4657,6 +4657,35 @@ body:not(.has-sidebar) .pagination {
 
 .button.button-secondary:hover{
 	background-color: transparent !important;
+}
+.why-choose-us {
+    background: #fdfaf6;
+    padding: 100px 60px;
+    border-top: solid 1px #ededed;
+	border-bottom: solid 1px #ededed;
+	max-width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
 
+.why-choose-us .block-columns{
+	justify-content: center;
+}
+.why-choose-us .block-columns .block-column p {
+    color: #000 !important;
+    opacity: 1;
+    padding-top: 15px;
+}
 
+.why-choose-us .block-column:not(:first-child){
+	margin-left: 55px;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    left: 30px;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;
+    z-index: 999;
 }
