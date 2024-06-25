@@ -4693,3 +4693,103 @@ body:not(.has-sidebar) .pagination {
     z-index: 999;
 }
 
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #ffecdddb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active {
+		background-color: transparent;
+		color: #ed1c24;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+  }
+  .wedding-intro::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-position: center right;
+    position: absolute;
+    left: 66%;
+    bottom: 0;
+    background-image: url(../images/wedding-rings.png);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+  /* .wed-icon::before {
+	content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-position: center right;
+    position: absolute;
+    top: 19%;
+    left: 19%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3416/3416724.png);
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+
+} */
+.jd{
+	text-align: center;
+}
+.jobs .block-columns {
+    max-width: 905px;
+}
+.block-column.jd-heading .main {
+    font-size: 23px;
+    color: #ed1c24;
+}
+.block-column.jd-type {
+    padding-top: 10px;
+}
