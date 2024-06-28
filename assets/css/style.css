@@ -2769,6 +2769,7 @@ body:not(.has-sidebar) .alignfull {
 	max-width: 100vw;
 	padding-left: 0;
 	padding-right: 0;
+	margin: 0;
 }
 
 body:not(.has-sidebar) .block-grid.alignfull,
@@ -4793,3 +4794,7 @@ body:not(.has-sidebar) .pagination {
 .block-column.jd-type {
     padding-top: 10px;
 }
+.why-choose-us img {
+    border-radius: 20px;
+}
+
