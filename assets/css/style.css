@@ -2934,6 +2934,9 @@ body:not(.has-sidebar) .block-room-listing.alignfull {
 		-ms-flex-preferred-size: 100%;
 		flex-basis: 100%;
 	}
+	.why-choose-us .block-column:not(:first-child){
+		margin-left: 0 !important;
+	}
 
 	.block-column:last-child > :last-child {
 		margin-bottom: 0;
@@ -3242,7 +3245,7 @@ body .block-grid.alignfull {
 
 @media (min-width: 1200px) {
 	.block-media-text .text-part {
-		padding: 12%;
+		padding: 10%;
 	}
 
 	.block-media-text .text-part.stairs-effect-half-top > :first-child {
@@ -4797,4 +4800,9 @@ body:not(.has-sidebar) .pagination {
 .why-choose-us img {
     border-radius: 20px;
 }
-
+.client-review{
+	height: 250px;
+    max-width: 320px !important;
+	display: inline;
+}
+.cr{padding: 15px !important;}
