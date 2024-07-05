@@ -2937,7 +2937,9 @@ body:not(.has-sidebar) .block-room-listing.alignfull {
 	.why-choose-us .block-column:not(:first-child){
 		margin-left: 0 !important;
 	}
-
+	.why-choose-us .block-column{
+		flex-basis: 50% !important;
+	}
 	.block-column:last-child > :last-child {
 		margin-bottom: 0;
 	}
@@ -4667,7 +4669,7 @@ body:not(.has-sidebar) .pagination {
 }
 .why-choose-us {
     background: #fdfaf6;
-    padding: 100px 60px;
+    padding: 100px 30px;
     border-top: solid 1px #ededed;
 	border-bottom: solid 1px #ededed;
 	max-width: 100%;
